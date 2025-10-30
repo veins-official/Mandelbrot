@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.svg"><title>Множество Мандельброта JS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav>
+      <input id="wx" type="number" placeholder="x"> <input id="wy" type="number" placeholder="y">
+      <input id="zoom" type="number" placeholder="zoom">
+      <input id="res" type="number" placeholder="resolution" value="1">
+      <input type="button" class="button" value="find" onclick="find()">
+    </nav>
+
+    <div class="aspect-ratio-box"><canvas class="canvas"></canvas></div>
+    <script src="main.js"></script>
+  </body>
+</html>
